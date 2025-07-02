@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Kawaii Canvas - Cozy New Tab",
+  "version": "1.0.0",
+  "description": "Transform your new tab into a cozy, kawaii-style journaling canvas with notes, stickers, and washi tape",
+  "permissions": [
+    "storage"
+  ],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Kawaii Canvas"
+  }
+} 

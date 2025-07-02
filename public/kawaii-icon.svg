@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#FFE5D0" stroke="#FFCBA4" stroke-width="2"/>
+  
+  <!-- Kawaii face -->
+  <!-- Eyes -->
+  <circle cx="22" cy="25" r="3" fill="#333"/>
+  <circle cx="42" cy="25" r="3" fill="#333"/>
+  <circle cx="23" cy="24" r="1" fill="#fff"/>
+  <circle cx="43" cy="24" r="1" fill="#fff"/>
+  
+  <!-- Blush -->
+  <circle cx="16" cy="30" r="3" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="48" cy="30" r="3" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- Mouth -->
+  <path d="M 26 38 Q 32 44 38 38" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Cherry blossom decoration -->
+  <g transform="translate(48, 16) scale(0.8)">
+    <path d="M 0 0 L 2 4 L 6 2 L 4 6 L 8 4 L 4 8 L 6 12 L 2 10 L 0 14 L -2 10 L -6 12 L -4 8 L -8 6 L -4 2 L -6 -2 L -2 0 Z" fill="#FFB6C1"/>
+    <circle cx="0" cy="7" r="1.5" fill="#FFF"/>
+  </g>
+  
+  <!-- Small stars -->
+  <circle cx="12" cy="12" r="1" fill="#FFD700"/>
+  <circle cx="52" cy="52" r="1" fill="#FFD700"/>
+</svg> 
